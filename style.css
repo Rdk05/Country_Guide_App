@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(2, 2, 49);
+}
+
+.container{
+    background-color: white;
+    width: 60vw;
+    max-width: 37.5rem;
+    padding: 3rem 2.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 6px;
+    box-shadow: 0 1rem 1.2rem rgba(164, 177, 220, 0.25);
+}
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25rem;
+}
+
+.search-wrapper button {
+    font-size: 1rem;
+    background-color: rgb(6, 6, 75);
+    color: white;
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 2rem;
+}
+
+.search-wrapper button:hover{
+    cursor: pointer;
+    color: olive;
+}
+
+
+.search-wrapper input{
+    font-size: 1rem;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 2px solid rgb(4, 4, 38);
+    outline: none;
+    color: #808080;
+    
+}
+
+#result{
+    margin-top: 1.25em;
+}
+
+.container .flag-img{
+    display: block; 
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+} 
+
+.container h2{
+    font-weight: bold;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span{
+    color: #5d6274;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: olive;
+
+}
